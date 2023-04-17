@@ -23,7 +23,7 @@ body{
 }
 
 .div1{
-    width: 700px;
+    width: 80vw;
     height: 450px;
     background-color: #07051F;
     color: white;
@@ -84,7 +84,7 @@ body{
 }
 
 .div3{
-    width: 700px;
+    width: 80vw;
     height: 450px;
     background-color: #07051F;
     color: white;
@@ -103,11 +103,39 @@ body{
 footer{
     height: 60px;
     background-color: #A06BE4;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: 100px;
 }
 
+@media (max-width:790px){
+    nav{
+        display: flex;
+        height: 300px; 
+        align-items: center;
+        flex-direction: column;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .div2{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
+    .div1{
+        border-radius: 50px;
+    }
+    .div3{
+        border-radius: 50px;
+    }
+    .green{
+        width: 100px;
+        height: 220px;
+    }
+    
+}
 
 
 

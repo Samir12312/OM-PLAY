@@ -18,7 +18,7 @@ nav a:hover{
 
 body{
     margin: 0;
-    background-image: url(../img/1541054584_2-AWP.jpg);
+    background-image: url(../img/1541054584_2-AWP.jpg); 
     background-size: cover;
 }
 
@@ -43,4 +43,6 @@ line-height: 42px;
 text-align: center;
 color: #FCC966;
 }
+
+
 

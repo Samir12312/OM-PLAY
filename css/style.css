@@ -8,8 +8,9 @@ align-items: center;
 
 body{
     margin: 0;
-    background-image: url(../img/back.jpg);
+    background-image: url(../img/1664229110_23-damion-club-p-fioletovie-oboi-stim-vkontakte-25.jpg);
     background-size: cover;
+    
 }
 
 
@@ -30,11 +31,14 @@ transform: scale(1.05);
     background: rgba(115, 97, 97, 0.5);
     backdrop-filter: blur(10px);
     border-radius: 45px;
+    width: 75vw;
 }
 
+
+
 marquee img{
-    width: 100px;
-    height: 100px;
+    width: 5em;
+    height: 5em;
 }
 
 .run h2{
@@ -57,10 +61,24 @@ marquee img{
     height: 250px;
 }
 
-footer{
-    height: 60px;
-    background-color: #A06BE4;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    footer{
+        height: 60px;
+        background-color: #A06BE4;
+        width: 100%;
+        margin-top: 100px;
 }
+
+@media (max-width:790px){
+    nav{
+        display: flex;
+        height: 300px; 
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+    .gall{
+   display: flex;
+   justify-content: center;
+    }
+
